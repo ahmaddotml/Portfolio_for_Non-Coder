@@ -13,7 +13,7 @@ const PORTFOLIO_CONFIG = {
     title: "Junior Data Scientist | ML Engineer",
     tagline: "I thrive at the intersection of mathematical theory and clean, executable code. Specializing in building end-to-end intelligent systems — from data preprocessing and model training with PyTorch to deploying high-performance inference engines.",
     greeting: "As-salamu alaykum, I'm",
-    image: "Assits/person.png"
+    image: "assits/person.png"
   },
 
   /* ---------- SOCIAL LINKS ---------- */
