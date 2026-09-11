@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Scientist | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">&lt;DS/&gt;</a>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting" data-config="personal.greeting">Hi, I'm</p>
+        <h1 class="hero-name"><span class="highlight" data-config="personal.name">[Your Name]</span></h1>
+        <h2 class="hero-title" data-config="personal.title">Data Scientist</h2>
+        <p class="hero-tagline" data-config="personal.tagline">Turning raw data into actionable insights. I build machine learning models, uncover hidden patterns, and drive data-informed decisions.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#about" class="btn btn-outline">About Me</a>
+        </div>
+        <div class="hero-socials" data-config="social">
+          <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-wrapper">
+          <img src="Assits/person.png" alt="Profile Photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      <p class="section-subtitle">Get to know me</p>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="about-img-wrapper">
+            <img src="Assits/person.png" alt="About Photo">
+          </div>
+        </div>
+        <div class="about-text">
+          <h3 data-config="about.heading">A passionate Data Scientist passionate about solving real-world problems</h3>
+          <div data-config="about.paragraphs">
+            <p>I am a data scientist with experience in extracting insights from complex datasets. My journey began with a curiosity for numbers and evolved into a career where I combine statistical thinking with machine learning techniques to drive business value.</p>
+            <p>I specialize in building end-to-end data pipelines, developing predictive models, and creating compelling data visualizations that tell a story. I believe every dataset holds a narrative waiting to be uncovered.</p>
+            <p>When I'm not wrangling data, I enjoy contributing to open-source projects, writing technical articles, and exploring the latest advancements in AI and deep learning.</p>
+          </div>
+          <div class="about-stats" data-config="about.stats">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="education section" id="education">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Education</span></h2>
+      <p class="section-subtitle">Academic background</p>
+      <div class="education-content">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-details">
+            <h3>ICS, Computer Science</h3>
+            <h4>Government College Peshawar</h4>
+            <p class="education-date"><i class="far fa-calendar-alt"></i> September 2025</p>
+            <p class="education-description">Focused on Computer Science fundamentals, programming, and mathematics — building a strong foundation for a career in Data Science and Machine Learning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+      <p class="section-subtitle">What I bring to the table</p>
+      <div class="skills-grid" data-config="skills">
+        <!-- Skills will be populated from config.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+      <p class="section-subtitle">Have a project or question? Let's talk data!</p>
+      <div class="contact-wrapper">
+        <div class="contact-info-panel">
+          <h3 data-config="contact.heading">Let's connect</h3>
+          <p data-config="contact.description">Have a project, question, or just want to chat about data? Reach out through any of these channels.</p>
+          <div class="contact-details">
+            <div class="contact-row">
+              <div class="contact-row-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-row-text">
+                <span class="contact-row-label">Email</span>
+                <span class="contact-row-value" data-config="contact.email">your.email@example.com</span>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-row-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="contact-row-text">
+                <span class="contact-row-label">Phone</span>
+                <span class="contact-row-value" data-config="contact.phone">+123 456 7890</span>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-row-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-row-text">
+                <span class="contact-row-label">Location</span>
+                <span class="contact-row-value" data-config="contact.location">City, Country</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Collaboration">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <span class="form-error"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> <span data-config="contact.successMessage">Message sent successfully — I'll get back to you soon.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">&lt;DS/&gt;</div>
+        <p class="footer-text" data-config="footer.copyright">&copy; 2026 [Your Name]. Built with <i class="fas fa-heart"></i> for Data Science.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
