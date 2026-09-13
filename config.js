@@ -94,7 +94,7 @@ const PORTFOLIO_CONFIG = {
    * Leave endpoint as empty string to disable (form will just show success message).
    */
   form: {
-    endpoint: "",  // Paste your form endpoint here
+    endpoint: "https://formspree.io/f/mgaejejr",  // Paste your form endpoint here
     successMessage: "Message sent successfully — I'll get back to you soon."
   },
 
