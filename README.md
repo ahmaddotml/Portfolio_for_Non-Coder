@@ -4,7 +4,7 @@ A modern, dark-themed personal portfolio website for a Junior Data Scientist & M
 
 > **Live in minutes** — open `index.html` and you're done. Deploy for free on Cloudflare Pages with a single drag-and-drop.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-64ffda?style=for-the-badge&logo=cloudflare)](YOUR_LIVE_DEMO_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-64ffda?style=for-the-badge&logo=cloudflare)](https://portfolio-for-non-coder.ahmaddotml.workers.dev/)
 
 ---
 
